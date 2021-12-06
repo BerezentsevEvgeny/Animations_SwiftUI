@@ -24,7 +24,6 @@ struct MainView: View {
                 .font(.headline)
                 .padding()
             }
-            
             Spacer()
             
             ZStack {
