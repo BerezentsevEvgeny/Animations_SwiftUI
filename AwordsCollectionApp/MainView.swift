@@ -28,7 +28,6 @@ struct MainView: View {
             Spacer()
             
             ZStack {
- 
                 LogoCircle(width: 250, height: 250, isRotate: showAward)
                     .offset(y: showAward ? 0 : -UIScreen.main.bounds.height)
                     .animation(.interpolatingSpring(mass: 1,
